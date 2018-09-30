@@ -1,0 +1,51 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TIGR00496_umdA.HMM
+# target sequence database:        seq2~
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TIGR00496_s  [M=174]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    1.9e-41  127.8  10.3    2.1e-41  127.7  10.3    1.0  1  lcl|X6MCH3/7-182  
+
+
+Domain annotation for each sequence (and alignments):
+>> lcl|X6MCH3/7-182  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  127.7  10.3   2.1e-41   2.1e-41       1     171 [.       1     171 [.       1     172 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 127.7 bits;  conditional E-value: 2.1e-41
+       TIGR00496_s   1 eekmekaleklkkelskirsgranpellenikVklygkkvpLnelAqisvknartlvitvfdpslikaiekaiqasnlnltpqqdgnqikvpl 93 
+                       ++kmek++ klk++l +i++  ++++++e+++V l++++v Ln++A++s+kn++++v+t+ ++++ ++i+  ++  n +++p++d+ ++ v++
+  lcl|X6MCH3/7-182   1 KKKMEKHIMKLKSQLVTITIPAVQNAVIEKVPVPLNDRHVLLNTVATVSMKNKELIVVTPTKQAMGPNIVIGLKIYNADFSPRIDRGNVFVNI 93 
+                       689****************************************************************************************** PP
+
+       TIGR00496_s  94 pklTeErRkelvkkakklaekakdsirnirrkankklkklkkeiseDdvkkakkelekltkkyikkiekllkekekel 171
+                       pk+++E+ + l +k+k++++ a ++i+n ++ka+++l+++++ is++d++++k++l++l+k+++k +++++++k ke+
+  lcl|X6MCH3/7-182  94 PKPSKETLQLLREKVKSKVDYALSDIKNEHKKALTHLSDIQDFISKNDAFQFKQHLNELVKEQCKLANEMSETKLKEF 171
+                       ****************************************************************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (174 nodes)
+Target sequences:                            1  (172 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.01
+# Mc/sec: 2.99
+//
+[ok]
